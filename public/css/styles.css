@@ -123,8 +123,6 @@ h3,
 }
 
 
-
-
 section.banner img{
     width: 100%;
 }
@@ -182,10 +180,31 @@ article div.main-article{
     padding: 15px;
 }
 
+.login input {
+        font-size: 20px;
+        width: 82%;
+        padding: 10px;
+        border: none;
+        margin-bottom: 15px;
+        text-align: center;
+}
+.register {
+      background-color: #ebebeb; 
+      font-size: 15px;
+      width : 70%;
+      text-align: center;
+}
+.register input {
+        margin : 10px;
+        border: 1px, solid, #aaa;
+}
+
 .main-article i:hover{
         transform: rotate(-90deg);
     
 }
+
+
 
 
 @media (min-width: 361px){
